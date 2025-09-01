@@ -1,0 +1,308 @@
+* {
+  margin: 0px;
+}
+body {
+  background-image: url("./assets/istockphoto-1368210864-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-1 {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+.signup-container {
+  width: 500px;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #250b8e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #250b8e;
+}
+
+.login-container {
+  width: 500px;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #250b8e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #250b8e;
+}
+
+.home-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.input-textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.predict-button {
+  padding: 10px 20px;
+  background-color: #250b8e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.predict-button:hover {
+  background-color: #250b8e;
+}
+
+.prediction-result {
+  margin-top: 20px;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+/* History.css */
+.history-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px; /* Padding around the container */
+}
+
+.history-card {
+  width: 500px;
+  color: #fff;
+  border: 1px solid #ccc; /* Card border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px; /* Padding inside the card */
+  margin-bottom: 15px; /* Space between cards */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for 3D effect */
+}
+
+.history-query-container {
+  max-height: 50px; /* Fixed height for the query */
+  overflow-y: auto; /* Vertical scroll when content overflows */
+}
+
+.history-query {
+  font-size: 17px; /* Font size for the query */
+  margin: 0; /* Remove default margin */
+}
+
+.history-timestamp,
+.history-sentiment,
+.history-reason {
+  margin: 5px 0; /* Space between elements */
+}
+
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333; /* Dark background */
+  color: white; /* White text */
+}
+
+.navbar-title {
+  font-size: 1.5rem; /* Title font size */
+}
+
+.navbar-links {
+  align-items: center;
+  display: flex; /* Container for links */
+  gap: 1rem; /* Spacing between links */
+}
+
+.navbar-link {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  cursor: pointer; /* Pointer cursor for hover */
+}
+
+.navbar-link1 {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.navbar-link1:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.navbar-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* FileUpload.module.css */
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+/* TableComponent.css */
+.table-container {
+  padding: 20px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #fff;
+}
+
+.scrollable-cell {
+  max-width: 200px; /* Limit the width of the cell */
+}
+
+.scrollable-content {
+  max-height: 50px; /* Limit the height to make content scrollable */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding-right: 10px; /* Provide space for scrollbar */
+  white-space: pre-wrap; /* Maintain line breaks */
+}
+/* Custom scrollbar styling for WebKit-based browsers */
+.scrollable-content::-webkit-scrollbar {
+  width: 1px; /* Reduced scrollbar width */
+  height: 10px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounding corners of the scrollbar thumb */
+}
+
+.scrollable-content::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color when hovering over the scrollbar thumb */
+}
+
+.history-query-container::-webkit-scrollbar {
+  width: 1px; /* Reduced scrollbar width */
+  height: 5px;
+}
+
+.history-query-container::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 4px; /* Rounding corners of the scrollbar thumb */
+}
+
+.history-query-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color when hovering over the scrollbar thumb */
+}
