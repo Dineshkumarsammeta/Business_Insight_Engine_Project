@@ -23,6 +23,30 @@ Certain project components (including contextual insights, zero/few-shot learnin
 
 The repository is kept up to date for professional demonstration, research, and academic reasons.
 ETL automation, Spark processing, Airflow orchestration, deep learning baselines, and AWS infrastructure setup are examples of modules that are not linked to LLM integration but may nevertheless be replicated separately.
+
+This project was developed and tested in a TensorFlow environment (tf Conda environment).
+Some scripts and notebooks may fail to execute directly in GitHub Actions, Codespaces, or fresh environments due to missing dependencies, such as:
+
+ipykernel (required for running notebooks in a specific environment)
+
+nltk corpora (e.g., stopwords)
+
+Conda environment mismatches (tf not pre-configured)
+
+To successfully reproduce results, please ensure:
+
+You have a Conda environment named tf (or update paths in the code).
+
+Run the following before executing notebooks:
+
+conda install -n tf ipykernel --update-deps --force-reinstall
+pip install tensorflow scikit-learn pandas nltk
+python -m nltk.downloader stopwords
+
+
+This repository is maintained for academic and research demonstration purposes.
+Execution may require additional setup depending on the system, TensorFlow version, and Python environment.
+
 ## 📌 Objective
 The goal of this project was to build a **cloud-native, full-stack sentiment analysis platform** capable of processing massive volumes of **real-time Twitter data**.  
 
