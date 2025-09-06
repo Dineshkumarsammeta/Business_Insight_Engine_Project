@@ -12,9 +12,9 @@ seaborn>=0.12.2
 nltk>=3.8.1
 textblob>=0.17.1
 
+# Testing
+pytest>=7.4.0
+
 # Optional: Jupyter / Notebook execution in CI
 ipykernel>=6.27.0
 jupyter>=1.0.0
-
-# ETL & Cloud (if used in project)
-boto3>=1.26.0
