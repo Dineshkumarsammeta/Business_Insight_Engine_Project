@@ -39,5 +39,4 @@ jobs:
 
       # Step 6: Run tests
       - name: Run CI tests
-        run: |
-          python -m pytest tests/test_ci.py
+        run: python -m pytest tests/test_ci.py
