@@ -10,6 +10,19 @@
 **Reporting to:** Dr. Artur Boronat  
 **Type of Project:** Real-Time Sentiment Analysis, ETL Automation (Academic Project)  
 
+##  ⚠️ Disclaimer
+
+This project uses LangChain to incorporate GPT-4 for contextual reasoning and sophisticated sentiment analysis.
+In order to execute the system end-to-end or completely replicate the findings, you need:
+
+A current OpenAI account
+
+A working OpenAI API key set up in your setting
+
+Certain project components (including contextual insights, zero/few-shot learning, and GPT-4 improved classification) won't work properly without access to OpenAI's API.
+
+The repository is kept up to date for professional demonstration, research, and academic reasons.
+ETL automation, Spark processing, Airflow orchestration, deep learning baselines, and AWS infrastructure setup are examples of modules that are not linked to LLM integration but may nevertheless be replicated separately.
 ## 📌 Objective
 The goal of this project was to build a **cloud-native, full-stack sentiment analysis platform** capable of processing massive volumes of **real-time Twitter data**.  
 
@@ -85,5 +98,5 @@ The outcome was a **production-ready pipeline** capable of analyzing **10,000+ t
 ## Contact  
 For questions, collaboration, or feedback, please contact:  
 **Sammeta Dinesh Kumar** — [sammetadineshkumar@gmail.com]  
-- 🌐 [Portfolio](https://dineshsammeta1234.github.io/)  
+- 🌐 [Portfolio]((https://dineshkumarsammeta.github.io/))  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/dineshsammeta)  
