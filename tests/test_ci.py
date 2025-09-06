@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 import nltk
 
 def test_tensorflow_import():
-    """Check if TensorFlow loads properly"""
+    """Check if TensorFlow loads properly updated """
     assert tf.__version__ is not None
     print(f"✅ TensorFlow version: {tf.__version__}")
 
