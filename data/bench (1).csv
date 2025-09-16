@@ -1,0 +1,3 @@
+run_id,date_iso,stage,dataset,subset,records,model,version,accuracy,f1_weighted,latency_p50_ms,latency_p95_ms,throughput_rps,cost_usd,env_python,git_commit,notes
+R2025-09-09-001,2025-09-09,baseline,twitter_synthetic_1k,test,1000,logreg_sklearn,0.0.1,0.86,0.84,42,95,12,0.0,3.11,<commit-sha>,Synthetic data; smoke run. Replace with real evaluation later.
+R2025-09-09-002,2025-09-09,llm_rerank,twitter_synthetic_1k,test,1000,langchain_gpt4_reranker,0.0.1,0.9,0.89,210,420,2.5,0.18,3.11,<commit-sha>,LLM-assisted reranking; update with actual prompt/cost later.
