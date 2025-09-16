@@ -106,7 +106,7 @@ The outcome was a **production-ready pipeline** capable of analyzing **10,000+ t
 - Conducted technical walkthroughs and peer reviews to validate results.  
 
 ## 📊 Results & Achievements
-- Developed a **real-time sentiment engine** processing **10,000+ tweets/hour** with **95% uptime**.  
+
 - Trained deep learning models achieving **92%+ accuracy**.  
 - Automated **ETL orchestration in Airflow**, reducing manual monitoring time by 50%.  
 - Processed and structured **5M+ raw JSON logs** with AWS Lambda + Glue.  
@@ -115,7 +115,24 @@ The outcome was a **production-ready pipeline** capable of analyzing **10,000+ t
 - Reduced system downtime from **hours → 10 mins** with automated alerts.  
 - Improved contributor onboarding time by **50%** with modular OOP codebase.  
 - Documented workflows with **Markdown + docstrings** for maintainability.  
-- Found **22% user preference for GPT-4 insights** over traditional logic via A/B tests.  
+- Found **22% user preference for GPT-4 insights** over traditional logic via A/B tests.
+  ## Model Performance
+
+### Accuracy Results
+
+| S.No | Model Name     | Accuracy (Train, Epochs 5) | Accuracy (Train, Epochs 10) | Accuracy (Test, Epochs 5) | Accuracy (Test, Epochs 10) |
+|------|----------------|---------------------------|-----------------------------|---------------------------|----------------------------|
+| 1    | LSTM           | 98.53                     | 99.76                       | 89.04                     | 89.38                      |
+| 2    | BI-LSTM        | 99.04                     | 99.78                       | 88.67                     | 89.27                      |
+| 3    | CNN            | 99.67                     | 99.83                       | 88.26                     | 88.82                      |
+| 4    | LSTM+CNN       | 98.70                     | 99.74                       | 89.43                     | 88.83                      |
+| 5    | ComplementNB   | 82.17                     | -                           | -                         | -                          |
+| 6    | MultinomialNB  | 83.10                     | -                           | -                         | -                          |
+| 7    | BernoulliNB    | 79.09                     | -                           | -                         | -                          |
+
+Full dataset and detailed metrics are available in the [model_training/model_DL_sent.ipynb) file.  
+You can also see the visual results here: ![model_training/model_DL_sent.ipynb)
+  
 
 ---
 
