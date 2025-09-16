@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "business-insight-engine"
+version = "1.0.0"
+description = "Business Insight Engine – automates data ingestion, transformation, and analytics with dashboards and APIs."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Sammeta Dinesh Kumar", email = "sammetadineshkumar@gmail.com" }
+]
+requires-python = ">=3.11"
+
+dependencies = [
+  "pandas==2.2.*",
+  "numpy==2.0.*",
+  "matplotlib==3.9.*",
+  "seaborn==0.13.*",
+  "flask==3.0.*",
+  "sqlalchemy==2.0.*",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "black>=24.0.0",
+  "isort>=5.12.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/Dineshkumarsammeta/Business_Insight_Engine_Project"
+Portfolio = "https://dineshsammeta1234.github.io/"
+LinkedIn = "https://www.linkedin.com/in/dineshsammeta"
