@@ -14,7 +14,7 @@ This log keeps a transparent record of work sessions, evidence, and releases so 
 
 ---
 
-## Objectives for v0.1.0 (48‑hour plan)
+## Objectives for v0.1.0
 - [ ] Add `pyproject.toml` (Python 3.11) and pin core deps
 - [ ] Add `Dockerfile`, `.env.template`, and `Makefile`
 - [ ] Restructure to `src/` where helpful
@@ -43,10 +43,10 @@ This log keeps a transparent record of work sessions, evidence, and releases so 
 ## Work sessions (chronological)
 | Date       | Block | Task                                                                 | Status    | Time (h) | Ref        | Notes |
 |------------|-------|----------------------------------------------------------------------|-----------|----------|------------|-------|
-| 2025-09-09 | AM    | Create `docs/progress-log.md` and `data/bench.csv` scaffolds            | Done      | 0.5      | <commit-sha> | Starter artefacts added |
-| 2025-09-09 | AM    | Draft `pyproject.toml` and CI workflow snippets                         | Planned   | 1.0      | —          | See Appendix below |
-| 2025-09-09 | PM    | Add tiny Flask API + smoke test; wire CI                               | Planned   | 2.5      | —          | Endpoints: `/health`, `/predict` |
-| 2025-09-09 | PM    | Prepare `CHANGELOG.md`; tag `v0.1.0`                                    | Planned   | 0.5      | —          | Tag after CI green |
+| 2025-09-16 | AM    | Create `docs/progress-log.md` and `data/bench.csv` scaffolds            | Done      | 0.5      | <commit-sha> | Starter artefacts added |
+| 2025-09-16 | AM    | Draft `pyproject.toml` and CI workflow snippets                         | Planned   | 1.0      | —          | See Appendix below |
+| 2025-09-16 | PM    | Add tiny Flask API + smoke test; wire CI                               | Planned   | 2.5      | —          | Endpoints: `/health`, `/predict` |
+| 2025-09-16 | PM    | Prepare `CHANGELOG.md`; tag `v0.1.0`                                    | Planned   | 0.5      | —          | Tag after CI green |
 
 > Tip: Replace `<commit-sha>` with the actual commit SHA (short) and `<PR-#>` with your PR number if using PRs.
 
