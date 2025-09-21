@@ -77,7 +77,23 @@ The outcome was a **production-ready pipeline** capable of analyzing **10,000+ t
 
 ## 📂 Data Sources
 - **Source:** Kaggle – Twitter and social media sentiment datasets  
-- **Source:** Real-time Twitter API feeds (streaming JSON data)  
+- **Source:** Real-time Twitter API feeds (streaming JSON data)
+- 
+## 📥 Data Ingestion
+
+**Reproducibility Note:**  
+
+Because Twitter API rate limits apply on Free/Basic tiers, this repository includes a **simulated streaming mode** to emulate live tweets.  
+
+To run the simulation, use:
+
+```bash
+python tools/tweet_producer.py --file data/kaggle_dump.jsonl --rate 50msg/s
+```
+Reproducibility note: Because X API read limits apply on Free/Basic tiers, the repo includes a
+simulated streaming mode. Run python tools/tweet_producer.py --file
+data/kaggle_dump.jsonl --rate 50msg/s to emulate live tweets. See X API access levels for
+details. 
 
 ## 🛠️ Tools & Technologies
 - **Programming:** Python, Flask, React.js  
@@ -107,7 +123,7 @@ The outcome was a **production-ready pipeline** capable of analyzing **10,000+ t
 
 ## 📊 Results & Achievements
 
-- Trained deep learning models achieving **92%+ accuracy**.  
+- Trained deep learning models achieving **88%-89%+ accuracy**.  
 - Automated **ETL orchestration in Airflow**, reducing manual monitoring time by 50%.  
 - Processed and structured **5M+ raw JSON logs** with AWS Lambda + Glue.  
 - Enhanced classification accuracy by **18% in low-data domains** with GPT-4 LangChain.  
