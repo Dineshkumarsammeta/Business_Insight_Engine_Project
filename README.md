@@ -119,7 +119,21 @@ details.
 - Led **Agile sprints** with retrospectives, managed tasks via Azure DevOps Boards.  
 - Applied **A/B testing** to compare LLM-based vs rule-based logic.  
 - Documented system architecture, workflows, and models for handover.  
-- Conducted technical walkthroughs and peer reviews to validate results.  
+- Conducted technical walkthroughs and peer reviews to validate results.
+
+##DashBoard Screenshots
+
+**Single Text Input Web  Page**
+<img width="1342" height="654" alt="image" src="https://github.com/user-attachments/assets/48d2d3e3-0f56-4fad-b942-a6b2620512f9" />
+
+**History  Web Page UI**
+
+<img width="1370" height="629" alt="image" src="https://github.com/user-attachments/assets/dd764983-db4a-4f20-be2e-cface743be44" />
+
+**CSV File Input Web Page**
+
+<img width="990" height="340" alt="image" src="https://github.com/user-attachments/assets/ecaf9fd7-21bc-40a1-bf5f-77e91733fc5c" />
+
 
 ## 📊 Results & Achievements
 
