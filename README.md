@@ -65,7 +65,7 @@ The outcome was a **production-ready pipeline** capable of analyzing **10,000+ t
 - Designed **full-stack sentiment analysis workflow** using Python, Flask, and Apache Spark.  
 - Built **ETL pipelines** with Apache Airflow for real-time Twitter streams.  
 - Processed **~100GB of streaming data** via Apache Spark.  
-- Architected a **cloud-native system** with AWS (S3, Redshift, Glue, Lambda, Kinesis).  
+- Architected a **cloud-native system** with AWS (S3).  
 - Trained **deep learning models** (LSTM, CNN, hybrid architectures) with TensorFlow & Scikit-learn.  
 - Integrated **GPT-4 via LangChain** for contextual sentiment analysis and zero-shot learning.  
 - Deployed a **secure Flask REST API** serving real-time sentiment predictions.  
